@@ -30,6 +30,7 @@ namespace FreeCourse.Services.Catalog
         {
             #region AddScopped
             services.AddScoped<ICategoryService, CategoryService>();
+            services.AddScoped<ICourseService, CourseService>();
             #endregion
 
             services.AddAutoMapper(typeof(Startup));

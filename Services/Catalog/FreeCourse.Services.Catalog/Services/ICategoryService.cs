@@ -9,7 +9,7 @@ namespace FreeCourse.Services.Catalog.Services
     interface ICategoryService
     {
         /// <summary>
-        /// Lists all categories.
+        /// Get all categories.
         /// </summary>
         /// <returns></returns>
         Task<Response<List<CategoryDto>>> GetAllAsync();
