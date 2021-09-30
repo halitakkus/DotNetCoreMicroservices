@@ -42,7 +42,6 @@ namespace FreeCourse.IdentityServer
                    AllowedGrantTypes = GrantTypes.ClientCredentials,
                    AllowedScopes = { "catalog_fullpermission", "photo_stock_fullpermission", IdentityServerConstants.LocalApi.ScopeName }
                }
-       
             };
     }
 }
